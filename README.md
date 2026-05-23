@@ -55,6 +55,10 @@ npm run build
 Die Vite-Basis ist in `vite.config.ts` auf `/von100/` gesetzt. Der Workflow
 `.github/workflows/deploy.yml` baut bei Push auf `main` und deployed `dist` nach GitHub Pages.
 
+Wichtig in GitHub: Unter **Settings -> Pages -> Build and deployment** muss als Source
+**GitHub Actions** ausgewaehlt sein. Sonst kann `actions/deploy-pages` mit einem 404 beim
+Erstellen des Deployments abbrechen.
+
 Wenn das Repository anders heisst, muss `base` in `vite.config.ts` angepasst werden.
 
 ## Kommunikationsprinzipien
