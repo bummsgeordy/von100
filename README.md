@@ -26,6 +26,23 @@ npm install
 npm run dev
 ```
 
+## Lokal auf macOS starten
+
+Am einfachsten per Doppelklick auf:
+
+```text
+von100 starten.command
+```
+
+Das Skript prueft Node.js/npm, installiert fehlende Abhaengigkeiten bei Bedarf und oeffnet:
+
+```text
+http://127.0.0.1:5173/von100/
+```
+
+Der lokale Server laeuft, solange das Terminalfenster offen ist. Zum Beenden `Ctrl+C`
+druecken oder das Fenster schliessen.
+
 Build und Tests:
 
 ```bash
